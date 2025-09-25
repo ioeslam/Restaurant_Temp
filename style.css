@@ -1,0 +1,92 @@
+.container {
+    max-width: 1200px;
+}
+
+.feane-font {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/* Header */
+.hero {
+    min-height: 100vh;
+    background: url('Resources/hero.jpg') center/cover no-repeat;
+    color: #fff;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.hero-content {
+    padding-top: 13rem;
+    padding-bottom: 4rem;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    opacity: .95;
+}
+
+.dot.active {
+    background-color: #ffc107;
+}
+
+
+/* Discount */
+.discount-img {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.discount-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.discount-card:hover .discount-img img {
+    transform: scale(1.1);
+}
+
+
+/* Menu */
+.product-card .card-img-top {
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+
+/* About */
+.about-section {
+    background-color: rgb(35, 40, 49);
+}
+
+
+/* Footer */
+.social-icon-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.social-icon-circle:hover {
+    background-color: #ffc107;
+    color: #333;
+}
